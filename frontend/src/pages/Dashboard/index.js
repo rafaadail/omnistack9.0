@@ -30,8 +30,8 @@ export default function Dashboard() {
                 </li>
             ))}
             </ul>
-            <Link to="new">
-                Cadastar novo spot
+            <Link to="/new">
+                <button className="btn">Cadastar novo spot</button>
             </Link>
         </>
     )
