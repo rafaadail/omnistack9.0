@@ -35,7 +35,7 @@ function SpotList({ tech, navigation }) {
                 showHorizontalScrollIndicator={false}
                 renderItem={({ item }) => (
                     <View style={styles.listItem}>
-                        <Image style={styles.thumbnail} source={{ uri: 'http://192.168.0.20:3333/files/totvs-1570125268428.jpg' }} />
+                        {/* <Image style={styles.thumbnail} source={{ uri: 'http://192.168.0.20:3333/files/totvs-1570125268428.jpg' }} /> */}
                         <Image style={styles.thumbnail} source={{ uri: item.thumbnail_url }} />
                         <Text style={styles.company}>{item.company}</Text>
                         <Text style={styles.price}>{item.price ? `R$${item.price}/dia` : 'GRATUITO'}</Text>
